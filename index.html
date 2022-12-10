@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Countdown To New Year's Eve</title>
+    </head>
+
+    <body>
+
+        <h1 id="message" class="hidden">
+            <span class="firstLetter">H</span>appy
+            <span class="firstLetter">N</span>ew
+            <span class="firstLetter">Y</span>ear
+        </h1>
+
+        <div id="card">
+            <h1 id="title">
+                Countdown to <span id="year">2023</span>!
+            </h1>
+
+            <div class="container">
+                <div class="box">
+                    <span class="time">Days: </span>
+                    <span id="totalDays" class="counter"></span>
+                </div>
+                <div class="box">
+                    <span class="time">Hours: </span>
+                    <span id="totalHours" class="counter"></span>
+                </div>
+                <div class="box">
+                    <span class="time">Minutes: </span>
+                    <span id="totalMinutes" class="counter"></span>
+                </div>
+                <div class="box">
+                    <span class="time">Seconds: </span>
+                    <span id="totalSeconds" class="counter"></span>
+                </div>
+            </div>
+
+            <h1 id="countdown">
+                <span id="days"></span> days <span id="hours"></span> hours <span id="minutes"></span> minutes <span id="seconds"></span> seconds left
+            </h1>
+        </div>
+
+        <script type="text/javascript" src="main.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,95 @@
+/* general rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkBlue: #1D3557;
+    --mediumBlue: #457B9D;
+    --lightBlue: #A8DADC;
+    --almostWhite: #F1FAEE;
+    --aRed: #E63946;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: var(--mediumBlue);
+}
+
+/* message */
+
+#message {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -14%);
+    color: var(--lightBlue);
+}
+
+.firstLetter {
+    color: var(--aRed);
+}
+
+/* card */
+
+#card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.5rem;
+    padding: 2rem 12rem;
+    text-align: center;
+    background-color: var(--darkBlue);
+    border: 4px solid var(--lightBlue);
+    color: var(--lightBlue);
+}
+
+#title {
+    font-size: 3rem;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+#year {
+    color: var(--aRed);
+}
+
+.container {
+    width: auto;
+    padding: 2rem 2rem;
+}
+
+.box {
+    padding: 1rem 0rem;
+}
+
+.time {
+    font-size: 2rem;
+}
+
+.counter {
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    background-color: var(--almostWhite);
+    color: var(--darkBlue);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#countdown span {
+    color: var(--aRed);
+}
+
+.fireworks {
+    background-image: url('assets/fireworks.jpg');
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+}
