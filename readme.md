@@ -2,7 +2,7 @@
 
 <br>
 
-A simple countdown made using plain JavaScript.
+A simple countdown created using plain JavaScript.
 
 <br>
 
